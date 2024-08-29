@@ -40,4 +40,12 @@
 .similarComponents {
   display:flex;
 justify-content:space-between;
+background-color: hsl(193, 78%, 73%);
+border: 2px #342828 solid;
+border-radius: 8px ;
+}
+
+.books{
+ border: 2px #342828 solid;
+ border-radius: 8px ;
 }

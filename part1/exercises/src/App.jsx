@@ -3,13 +3,21 @@ import './App.css';
 import MovieList from './components/MovieList.jsx';
 import ChoresList from './components/ChoresList.jsx';
 import BookList from './components/BookList.jsx';
+import HobbyLinks from './components/HobbyLinks.jsx';
 
 function App() {
   return (
     <div className="App">
-      <MovieList />
+      <div class = 'books'>
+        <BookList />
+      </div>
+      <div className='similarComponents'>
       <ChoresList />
-      <BookList />
+      <MovieList />
+      <HobbyLinks/>
+      </div>
+      
+      
     </div>
   );
 }
